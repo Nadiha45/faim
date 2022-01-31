@@ -134,4 +134,3 @@
 // console.log(newNumbers);
 
 
-console.log(Math.round(4.8));
