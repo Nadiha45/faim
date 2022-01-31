@@ -36,48 +36,48 @@
 
           // problem solve - da 
 
-for(let a = 1; a <= 100;a++){
-  console.log(a);
-}
+// for(let a = 1; a <= 100;a++){
+//   console.log(a);
+// }
 
 
-function evenTotal() {
-  let sum = 0;
-  for (let a = 2; a <= 100; a += 2) {
-    if (true) {
-      sum = sum + a;
-    }
-  }
-  return sum;
-}
-let even = evenTotal();
-console.log("even total  " , even);
-//  
+// function evenTotal() {
+//   let sum = 0;
+//   for (let a = 2; a <= 100; a += 2) {
+//     if (true) {
+//       sum = sum + a;
+//     }
+//   }
+//   return sum;
+// }
+// let even = evenTotal();
+// console.log("even total  " , even);
+// //  
 
-function oddTotal() {
-  let sum = 0;
-  for (let a = 1; a <= 100; a += 2) {
-    if (true) {
-      sum += a;
-    }
-  }
-  return sum;
-}
-let odd = oddTotal();
-console.log( "odd total " , odd);
+// function oddTotal() {
+//   let sum = 0;
+//   for (let a = 1; a <= 100; a += 2) {
+//     if (true) {
+//       sum += a;
+//     }
+//   }
+//   return sum;
+// }
+// let odd = oddTotal();
+// console.log( "odd total " , odd);
 
 
-function total() {
-  let sum = 0;
-  for (let a = 1; a <= 100; a += 1) {
-    if (true) {
-      sum += a;
-    }
-  }
-  return sum;
-}
-let totalNumber = total();
-console.log("total sum " ,  totalNumber);
+// function total() {
+//   let sum = 0;
+//   for (let a = 1; a <= 100; a += 1) {
+//     if (true) {
+//       sum += a;
+//     }
+//   }
+//   return sum;
+// }
+// let totalNumber = total();
+// console.log("total sum " ,  totalNumber);
 
 
         // [BORO THEKE CHOTO]
@@ -134,3 +134,4 @@ console.log("total sum " ,  totalNumber);
 // console.log(newNumbers);
 
 
+console.log(Math.round(4.8));
